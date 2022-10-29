@@ -1,0 +1,7 @@
+@mixin custom-props($token, $list) {
+	@each $type, $list-value in $list {
+		@each $specific, $value in $list-value {
+			#{$token}-#{$type}-#{$specific}: #{$value};
+		}
+	}
+}

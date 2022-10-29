@@ -1,0 +1,18 @@
+body {
+	$space: 0.125rem;
+
+	display: grid;
+	grid-template-columns: auto 1fr;
+	grid-template-rows: 1fr auto;
+	gap: 1px;
+
+	padding: 0.125rem;
+
+	// height: 100vh;
+
+	overflow: hidden;
+
+	background-color: theme("colors.slate.900");
+
+	isolation: isolate;
+}
